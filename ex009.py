@@ -1,7 +1,7 @@
 def multiplicationtable(number):
 
     for x in range(1, 11):
-        print("{} X {} is: {}".format(number, x, number * x))
+        print("{} X {:2d} = {}".format(number, x, number * x))
     return
 
 
