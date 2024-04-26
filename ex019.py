@@ -11,6 +11,6 @@ for i in range(number):
     studants.append(input("Insert a studant name "))
     pass
 
-draw_studant = random.randint(1, len(studants))
+draw_studant = random.randint(0, len(studants)-1)
 
-print('The selected studant is {}'.format(studants[draw_studant]))
+print("The selected studant is {}".format(studants[draw_studant]))
