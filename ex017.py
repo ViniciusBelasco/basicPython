@@ -4,9 +4,9 @@
 
 import math
 
-higth = float(input("Please enter the triangle's higth: "))
-widgth = float(input("Please enter the triangle's widgth: "))
+higth = float(input("Lenght of oposite side: "))
+widgth = float(input("Leght of adjacent leg: "))
 
 hipotenuse = math.sqrt(math.pow(higth, 2) + math.pow(widgth, 2))
 
-print(hipotenuse)
+print("The hipotenuse will measure: {:.2f}".format(hipotenuse))
