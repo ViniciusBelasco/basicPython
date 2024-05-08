@@ -8,7 +8,7 @@ number = int(input("How many studants will be in draw? "))
 studants = []
 
 for i in range(number):
-    studants.append(input("Insert a studant name "))
+    studants.append(str(input("Insert a studant name ")))
     pass
 
 draw_studant = random.randint(0, len(studants)-1)
