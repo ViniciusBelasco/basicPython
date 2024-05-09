@@ -13,6 +13,4 @@ for i in range(number):
 
 random.shuffle(studants)
 
-for i in range(number):
-    print("{} a apresentar é {}!".format(i+1, studants[i]))
-    pass
+print("The order for presentation is: {}!".format(studants))
