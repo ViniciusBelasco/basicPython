@@ -13,7 +13,7 @@ print(
     "And the first name lenght is {}".format(
         fullName.upper(),
         fullName.lower(),
-        len(fullName),
+        len(fullName) - fullName.count(' '),
         len(fullName.split()[0])
     )
 )
