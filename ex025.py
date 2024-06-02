@@ -1,5 +1,5 @@
 # Create a program that reads the name of a person and
-# tells if him/her have "SILVA" in the name
+# tells if they have "SILVA" in their name
 
 personName = input("Please enter your name: ")
 

@@ -1,6 +1,6 @@
-# Do a program that input hight and width of a wall and calculate
-# it's area and how much paint will be needed to paint it. Knowing each
-# liter of paint can be used in 2m square of wall
+# Create a program that inputs height and width of a wall and calculates
+# its area and how much paint will be needed to paint it. Knowing each
+# liter of paint can cover 2 square meters of wall.
 
 hight = float(input("What is the wall hight: "))
 width = float(input("What is the wall width: "))

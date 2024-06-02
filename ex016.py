@@ -1,5 +1,5 @@
-# Create a program that read a real number from input and show in
-# the screen its int portion
+# Create a program that reads a real number from input and shows in
+# the screen its integer portion on the screen.
 
 import math
 

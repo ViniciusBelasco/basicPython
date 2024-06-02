@@ -1,5 +1,5 @@
-# Create a program that reads an angle and show in the screen
-# it's value os sine, cossine , tangent.
+# Create a program that reads an angle and shows it's sine, cossine,
+# and tangent values on the screen.
 
 import math
 

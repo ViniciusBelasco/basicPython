@@ -1,10 +1,10 @@
-# Do a program that reads a number of 0 to 9999 and show
-# in the screen each one of the digits separetaly.
-# EX: Digite um número : 1834
+# Create a program that reads a number from 0 to 9999 and shows each of its
+# digits separately on the screen.
+# EX: Enter a number: 1834
 #   unit: 4
-#   dozens: 3
-#   hundreds: 8
-#   thousands: 1
+#   Tens: 3
+#   Hundreds: 8
+#   Thousands: 1
 
 fullNumber = input("Type a number: ")
 splitedNumber = []

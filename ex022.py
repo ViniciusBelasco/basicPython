@@ -1,7 +1,7 @@
-# Create a program that input the full name of a person and show:
-# 1 - The name with all upper letters
-# 2 - The name with all lower letters
-# 3 - How many letters the string have (with no spaces)
+# Create a program that input the full name of a person and shows:
+# 1 - The name with all uppercase letters
+# 2 - The name with all lowercase letters
+# 3 - How many letters the name has (excluding spaces)
 # 4 - How many letters the first name has
 
 fullName = str(input("Please enter your name: "))

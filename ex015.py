@@ -1,7 +1,7 @@
-# write a program which asks how much Km a rented car
-# has been driven and how many days it was rent. Calculate how much money
-# the rent cost, knowing that the car cost is 60 real for a dai and 0.15
-# real for km driven.
+# Create a program which asks how much kilometers a rented car
+# has been driven and how many days it was rented. Calculate how much
+# money the rent costs, knowing that the daily cost of the car cost is
+# 60 real and 0.15 real for each kilometers driven.
 
 km_driven = float(input("How many kilometers have you drive? "))
 days_rent = int(input("How many days have you rent it? "))

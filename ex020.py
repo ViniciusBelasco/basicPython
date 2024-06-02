@@ -1,6 +1,6 @@
-# A teacher want to draw the order of studants apresentation.
-# Do a program to help him, inputing his studants names and
-# printing the name of the sorted order.
+# A teacher wants to draw the order of studant's presentations.
+# Create a program to help him inputing the studant's names and
+# printing the names in the sorted order.
 
 import random
 

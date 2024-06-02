@@ -1,6 +1,6 @@
-# A teacher want to draw one of your four studants to erease the
-# board. Do a program to help him, inputing his studants names and
-# printing the name of the chosen studant.
+# A teacher wants to draw one of his four studants to erease the
+# board. Create a program to help him by studant's names and
+# printing the name of the chosen student.
 
 import random
 

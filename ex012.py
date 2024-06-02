@@ -1,5 +1,5 @@
-# Do an algorithm that read the price of a product
-# and show it's new price, whith 5% discount
+# Create an algorithm that reads the price of a product
+# and shows its new price with a 5% discount.
 
 price = float(input("Product price: "))
 discount = price * 0.05

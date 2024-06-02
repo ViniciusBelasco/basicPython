@@ -1,6 +1,5 @@
-# Create a program that reads the oposite lenght cathetus
-# and the adjacent of a right triangle. Calculate and show
-# the hipotenuse's lenght
+# Create a program that reads the lengths of the opposite and adjacent
+# sides of a right triangle. Calculate and show the length of the hypotenuse
 
 import math
 

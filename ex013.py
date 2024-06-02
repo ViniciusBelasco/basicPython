@@ -1,5 +1,5 @@
-# Do an Algorithm thar read the employ's salary and
-# show the new salary, with 15% of increase.
+# Create an Algorithm that reads the employee's salary and
+# shows their new salary with a 15% increase.
 
 salary = float(input("Actual wage: "))
 
