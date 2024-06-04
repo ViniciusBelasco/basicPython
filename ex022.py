@@ -4,16 +4,17 @@
 # 3 - How many letters the name has (excluding spaces)
 # 4 - How many letters the first name has
 
-fullName = str(input("Please enter your name: "))
+fullName = str(input("Please enter your name: ")).strip()
 
 print(
     "The full name in uppercase is {}. \n"
     "In lowercase is {}. \n"
-    "It's lenght is {} \n"
-    "And the first name lenght is {}".format(
+    "It's length is {} \n"
+    "And the first name length is {}".format(
         fullName.upper(),
         fullName.lower(),
         len(fullName) - fullName.count(' '),
-        len(fullName.split()[0])
+        len(fullName.split()[0])  # Outra passibilidade é
+                                  # usar o fullName.find(' ')
     )
 )

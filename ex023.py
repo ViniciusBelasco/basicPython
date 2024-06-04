@@ -6,6 +6,20 @@
 #   Hundreds: 8
 #   Thousands: 1
 
+# Solução do professor guanabara
+# n = int(input('informe um número: '))
+# u = num // 1 % 10
+# d = num // 10 % 10
+# c = num // 100 % 10
+# m = num // 1000 % 10
+#
+# print('Analisando o número {}'.format(num))
+# print('Unidade {}'.format(u))
+# print('Dezena {}'.format(d))
+# print('Centena {}'.format(c))
+# print('Milhar {}'.format(m))
+#
+
 fullNumber = input("Type a number: ")
 splitedNumber = []
 
@@ -18,17 +32,17 @@ splitedNumber.reverse()
 
 for x in range(len(splitedNumber)):
 
-    unit = ''
+    unit = ""
     if x == 0:
-        unit = 'unit'
+        unit = "unit"
     elif x == 1:
-        unit = 'dozens'
+        unit = "dozens"
         pass
     elif x == 2:
-        unit = 'hundreds'
+        unit = "hundreds"
         pass
     else:
-        unit = 'thousands'
+        unit = "thousands"
         pass
 
     print("{} {}".format(unit, splitedNumber[x]))

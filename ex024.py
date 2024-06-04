@@ -4,7 +4,7 @@
 cityName = input("Enter your city name: ")
 startOrNot = ""
 
-if cityName[0:5].upper() == "SANTO":
+if cityName.strip()[0:5].upper() == "SANTO":
     startOrNot = "start with"
 else:
     startOrNot = "don't start with"
