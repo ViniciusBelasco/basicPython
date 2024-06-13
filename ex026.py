@@ -3,7 +3,7 @@
 #     The position where it appears for the first time
 #     The position where  it appears for the last time
 
-phrase = str(input("Enter a phrase: ")).upper()
+phrase = str(input("Enter a phrase: ")).upper().strip()
 
 if phrase.count("A") == 0:
     print("No A letter was found sorry")
